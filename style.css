@@ -1,0 +1,82 @@
+body{
+    background-color: teal;
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("./pic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.main-heading{
+    padding: 10px 0px;
+    
+}
+.main-heading h1{
+    text-align: center;
+    color: #AACCFF;
+}
+.score-section{
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+}
+.first-score-section,.second-score-section {
+    border: 2px solid white;
+    margin: 10px 5px ;
+    color: red;
+    text-align: center;
+    background-color: rgb(7, 7, 97);
+    width: 180px;
+    height: 100px;
+    display: flex;
+    font-size: 2rem;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.lvl{
+    width: 430px;
+    padding-top: 25px;
+    border-radius: 20px;
+    height: 220px;
+    margin: 0 auto;
+    background-color: darkslategray;
+    
+}
+.button-section {
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.for-one button{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(7, 7, 97);
+
+}
+.new button{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(7, 7, 97);
+
+}
+.new{
+    text-align: center;
+    margin: 10px 0px;
+}
